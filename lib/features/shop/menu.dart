@@ -27,13 +27,12 @@ class Menu extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      AAppBar(title: ATexts.homeAppbarTitle, subtitle: ATexts.homeAppbarSubTitle, centerTitle: false,),
+                      AAppBar(title: ATexts.homeAppbarTitle, subtitle: ATexts.homeAppbarSubTitle, centerTitle: false, padding: 0, margin: 0,),
                       SizedBox(height: ASizes.spaceBtwSections),
                       CustomSearchBar(hintText: 'Search products...', color: Colors.transparent,),
                       SizedBox(height: ASizes.spaceBtwSections),
                       PopularBrands(title: 'Popular Brands', viewAll: 'View All',),
                       PopularItems(),
-
 
                     ],
               ),

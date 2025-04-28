@@ -6,5 +6,5 @@ void main()
 {
   // final widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   //
-  runApp(const MyApp());
+  runApp(MyApp());
 }
